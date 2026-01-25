@@ -19,10 +19,10 @@ Provide target training for low-performing agents
 # Tools used
 VsCode:
 Jupyter Notebook with:
-Data loading
-Cleaning logic
-Feature engineering
-Pythone script for reusable pipline
+1)Data loading
+2)Cleaning logic
+3)Feature engineering
+4)Pythone script for reusable pipline
 PowerBI:Power query
 ZenDesk
 # Conclusion
