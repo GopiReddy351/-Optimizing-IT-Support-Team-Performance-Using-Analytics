@@ -1,0 +1,164 @@
+Week-1
+Started off the project by learning importance of data cleaning.
+Raw data contains missing values,duplicates,null,etc.
+Data cleaning helps in better visualization and analysis.
+The process include :
+    Collecting the data(excel,csv,databases),
+    Transform(extracting the data and clean it),
+    Visualize
+Python : To clean the data ,automation
+PowerBI: Visualize
+Learned about the power query
+Common cleaning steps include:
+  -setting correct data types
+  -removing null values
+  -splitting columns
+  -trimming the extra spaces
+  -standardizing data
+  -remove duplicates
+
+Views in PowerBI:
+1.Table view: to check the data 
+2.Model view: to understand the relationships
+3.Report view: to create visualizations
+
+
+Reports (static) and Dashboards(interactive)
+Time series: Use Line chart
+
+
+Task: collect data based on IT support tickets and understand the data
+
+Presentation (final part)
+1.Documentation
+2.Upload files to github
+3.Interactive dashboards-"optimal dashbords"
+
+Week-2
+Data cleaning with Python 
+Difference between Python and PowerBi
+Python: Automation(can reuse the code)
+PowerBI: Visualization
+
+String:Set of characters ,any number which are not used in computation also
+example: phone number is considered as a text
+few phone numbers start with zero,when loading the data zero vanishes
+
+Learned about :
+libraries,dataframe,drop duplicates,strip,standradisation of Y/N,Nan,N/a ,etc
+
+Week-3
+EDA(Exploratory Data Anaylsis)
+It is the disciplined curiosity phase before analysis or Modeling.
+It is not "looking at data".
+It's a conversation with reality before you decide what problem to solve.
+There are 4 steps to follow:
+1.Transform,clean the data
+   Volume of data
+   Structure of the data
+   How many category,number of rows and colunms?
+   Where is the data from ?
+   Understand each and every metric
+2.Distribution(outliers)
+   Identify the outliers-extreme high and extreme low values
+3.Comparisons
+  To get valuable insights
+4.Relationship
+  How change in one category effect the other.
+
+EDA Typicaly moves:
+Statistics(mean,median,spread)
+Visuals(histograms,box plots, scatter plots)
+Checking duplicates,nulls,inconsistencies
+Early hypothesis formation(without overfitting your beliefs)
+
+Task:Understand a netflix dataset
+
+1.Which genre is dominant or highest?
+2.Has mature content increased over time?
+3.Which year did Netflix had most content added?
+4.Proportion of Movie vs TV show.
+5.Are new TV shows longer or shorter in terms of seasons.
+
+Week-4
+Live data import - for real time updates
+  Learned about importing live data in powerBI using get data option
+  Allows data to be fetched directly from the web using urls
+  The Dashboard updates Automatically as the source changes.
+There aer four dominant ways to do it-each with a different power-latency tradeoff.
+1.DirectQuery(True Live):Power BI doesn't store data, It queries the source in Real Time.
+Sources:SQL Server
+Latency: Seconds
+Best for:Operational Dashboards
+2.Streaming Datasets(Real-Time Events):Push data continuously via API.
+Source:IoT, Logs,apps,sensors
+Latency:Near real-Time(milliseconds-seconds)
+Tools:REST API,AzureStream Analysis,Power Automate
+3.Schedule Refresh(Near-Live):Based on timer Data Refreshs
+Source:Excl,CSV,APIs,on-prem DBs
+Latency: Every 15-30 mins(pro),more with Premium
+Best for:Bussiness Reporting
+4.Hybrid Tables(Best for both Worlds):
+Recent data = Live
+Historical data = imported
+Requires Power BI Premium
+Use case: Large datasets + fast visuals
+
+Challenges:
+  Not all websites allow data to import into powerBI
+  Authentication issues 
+  Login requirements
+  Data privacy and security restrictions
+
+PowerBI:Get data->web-.paste url,choose basic 
+
+Understanding APIs
+  Acts as a communication bridge
+  API keys are required to access live data
+
+Difference between Error and null Value:
+They look similar, but they signal very different failures.
+#NullValue: Data is missing unknown,or not applicable.
+No value exists.
+Expected in real-world data
+Can be intentional
+#Error: Something went wrong during data capture,processing,or calculation.
+Data exists but is invalid
+Indicates failure or inconsistency
+Must be fixed or Removed
+
+Zendesk
+  It is a customer support and ticket management system
+  Used by company to collect and Apply Real world data or live Datasets
+  We can't download data every time, that is the reason to connect the live data to power query.
+  CRM - Custmer Relationship Management System
+Concept of Outlayer:
+An outlayer is not a mistake to delete. It's a question the data is asking you.
+Finding an outlayer matters because it reveals truth at the edges-where system break.
+Ignore them and you optimize for the past,Understand them and you Design for what's coming next.
+
+In Data Visualization Data has 3 Types
+These 3 are Important Based on Table Data calculatons.
+1)Categorical Data:
+It uses Bar chart when comparing data,Pie chart uses proportions in categorical Data.
+Whenever you Visualizing categorical Data There must be no more than 5 to 6categories.
+It is too complex Sum of all proportions = 100
+2)Numerical Data: The data contains Numerical Values in the Table.
+3)Time Waste Data:
+In this Time series is calculated by line graph.
+Time attribute:monthly/Yearly sales,you can create line graph and connect it to the bar graph,
+because bar graph is optimal.
+Views are three types in Data Visualization.
+Table View, Model View, Report View
+We can't Connect one Table to another Table until a same commen column have.
+Data Modeling: It is also known as Schematic modeling.
+It is used in Multiple Table working Time.
+KEY's:
+Primary Key:It is a main key unique and doesn't contain duplicates.
+Foreign key:It have many duplicates.
+
+ETL pipeline(Extract,Transform,Load) 
+  Helps to automate data process
+  Ensures clean and consistent data
+
+Task:create a github reposistory
