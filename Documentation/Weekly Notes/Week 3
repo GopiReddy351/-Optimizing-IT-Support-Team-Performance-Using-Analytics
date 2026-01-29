@@ -1,0 +1,32 @@
+Week-3
+EDA(Exploratory Data Anaylsis)
+It is the disciplined curiosity phase before analysis or Modeling.
+It is not "looking at data".
+It's a conversation with reality before you decide what problem to solve.
+There are 4 steps to follow:
+1.Transform,clean the data
+   Volume of data
+   Structure of the data
+   How many category,number of rows and colunms?
+   Where is the data from ?
+   Understand each and every metric
+2.Distribution(outliers)
+   Identify the outliers-extreme high and extreme low values
+3.Comparisons
+  To get valuable insights
+4.Relationship
+  How change in one category effect the other.
+
+EDA Typicaly moves:
+Statistics(mean,median,spread)
+Visuals(histograms,box plots, scatter plots)
+Checking duplicates,nulls,inconsistencies
+Early hypothesis formation(without overfitting your beliefs)
+
+Task:Understand a netflix dataset
+
+1.Which genre is dominant or highest?
+2.Has mature content increased over time?
+3.Which year did Netflix had most content added?
+4.Proportion of Movie vs TV show.
+5.Are new TV shows longer or shorter in terms of seasons.
