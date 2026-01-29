@@ -49,16 +49,17 @@ Implement SLA(Service Level Agreement) alerts for high-priority tickets
 Provide target training for low-performing agents
 # Tools used
 VsCode:
+1)Data Handling:Python(Numpy,Pandas)
 
-1)Jupyter Notebook with:
+Jupyter Notebook with:
 Data loading,
 Cleaning logic,
 Feature engineering,
 Pythone script for reusable pipline
 
-2)PowerBI:Power query
+2)Visualization:PowerBI
 
-3)ZenDesk
+3)Documentation:Github Reposistory
 # Conclusion
 This project uses Python and Power BI to turn raw IT support ticket data into actionable insights. By analyzing KPIs such as resolution time, SLA compliance, and agent performance, the solution enables data-driven improvements in efficiency, workload balance, and service quality. The end result is an interactive dashboard that supports smarter operational decisions and continuous performance optimization.
 
