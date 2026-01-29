@@ -48,8 +48,8 @@ Balance workload using predictive volume analysis.
 Implement SLA(Service Level Agreement) alerts for high-priority tickets
 Provide target training for low-performing agents
 # Tools used
-VsCode:
-1)Data Handling:Python(Numpy,Pandas)
+1)VsCode:
+Data Handling:Python(Numpy,Pandas)
 
 Jupyter Notebook with:
 Data loading,
