@@ -1,1 +1,36 @@
+In Data Visualization Data has 3 Types
+These 3 are Important Based on Table Data calculatons.
+1)Categorical Data:
+It uses Bar chart when comparing data,Pie chart uses proportions in categorical Data.
+Whenever you Visualizing categorical Data There must be no more than 5 to 6categories.
+It is too complex Sum of all proportions = 100
+2)Numerical Data: The data contains Numerical Values in the Table.
+3)Time Waste Data:
+In this Time series is calculated by line graph.
+Time attribute:monthly/Yearly sales,you can create line graph and connect it to the bar graph,
+because bar graph is optimal.
 
+Views are three types in Data Visualization.
+Table View, Model View, Report View
+We can't Connect one Table to another Table until a same commen column have.
+Data Modeling: It is also known as Schematic modeling.
+It is Structuring your Data  using tools like PowerBI.
+It is used in Multiple Table working Time.
+The Main Table contains only UserId's only it is also known as fact Table.
+The other small tables contains Indetail Information known as Dimension Tables.
+Whenever we want to make a connection(Figjam) between two tables must present same column.
+Relationships have 4 types:
+Many to One (* + 1) Many columns in Table-A connect to one Matched column in Table-B. 
+One to Many (1 + *) One column in Table-B connects to Many columns Which Matches in Table-A.
+Many to Many (* + *) Many columns in Table-A connects to Many columns Which Matches in Table-B.
+One to One (1 + 1) One column in Table-A connects to One matched column in Table-B.
+Star schema : It is make connection between Fact table and Dimension Table.
+
+KPI'S - Keep Performance Indicator:
+It is used for better Visualization.
+it is in Numerical form.
+Kpi's are critical numbers used to track progress towards a goal.
+Cards:it gives quick glimnce of Numerical Value
+Database KEY's:
+Primary Key:It is a main key unique and doesn't contain duplicates.
+Foreign key:It have many duplicates.
