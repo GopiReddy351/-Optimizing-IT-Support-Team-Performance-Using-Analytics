@@ -1,1 +1,78 @@
+import pandas as pd
+df = pd.read_csv(r"C:\Users\HP\Downloads\Support_tickets.csv")
+df
 
+df = df.drop_duplicates()
+df
+
+df = df.reset_index(drop=True)
+df
+
+print(df)
+
+ticket_id day_of_week  day_of_week_num  company_id company_size  \
+0      1000000000         Wed                3      100015        Small   
+1      1000000001         Sat                6      100023        Small   
+2      1000000002         Mon                1      100012        Small   
+3      1000000003         Wed                3      100003        Small   
+4      1000000004         Mon                1      100019        Small   
+...           ...         ...              ...         ...          ...   
+49995  1000049995         Wed                3      100021       Medium   
+49996  1000049996         Fri                5      100010        Large   
+49997  1000049997         Tue                2      100002        Large   
+49998  1000049998         Wed                3      100022       Medium   
+49999  1000049999         Fri                5      100017        Small   
+
+       company_size_cat    industry  industry_cat customer_tier  \
+0                     1       media             7         Basic   
+1                     1  healthcare             5         Basic   
+2                     1      gaming             4         Basic   
+3                     1       media             7          Plus   
+4                     1   ecommerce             2          Plus   
+...                 ...         ...           ...           ...   
+49995                 2   ecommerce             2          Plus   
+49996                 3    saas_b2b             3          Plus   
+49997                 3     fintech             1    Enterprise   
+49998                 2    saas_b2b             3    Enterprise   
+49999                 1    saas_b2b             3         Basic   
+
+       customer_tier_cat  ...  downtime_min payment_impact_flag  \
+0                      1  ...             6                   0   
+1                      1  ...             2                   0   
+2                      1  ...             0                   0   
+3                      2  ...            16                   0   
+4                      2  ...             6                   0   
+...                  ...  ...           ...                 ...   
+49995                  2  ...             0                   0   
+49996                  2  ...             0                   0   
+49997                  3  ...             0                   0   
+49998                  3  ...             0                   0   
+49999                  1  ...             0                   0   
+
+       security_incident_flag  data_loss_flag  has_runbook customer_sentiment  \
+0                           0               0            0            neutral   
+1                           0               0            0            neutral   
+2                           0               0            1           positive   
+3                           0               0            1            neutral   
+4                           0               0            0            neutral   
+...                       ...             ...          ...                ...   
+49995                       0               0            0            neutral   
+49996                       0               0            1            neutral   
+49997                       0               0            1            neutral   
+49998                       0               0            1            neutral   
+49999                       0               0            0            neutral   
+
+       customer_sentiment_cat description_length  priority priority_cat  
+0                           2                227       low            1  
+1                           2                461       low            1  
+2                           3                306       low            1  
+3                           2                363    medium            2  
+4                           2                442       low            1  
+...                       ...                ...       ...          ...  
+49995                       2                483       low            1  
+49996                       2                319       low            1  
+49997                       2                616      high            3  
+49998                       2                526    medium            2  
+49999                       2                384       low            1  
+
+[50000 rows x 33 columns]
