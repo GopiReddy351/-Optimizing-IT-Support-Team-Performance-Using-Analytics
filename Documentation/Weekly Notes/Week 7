@@ -1,1 +1,27 @@
+Functoion is a Rausable block of logic.
+It Takes input
+Processes it
+Returns output
+There are two types of functions
+Implicit and Explicit Functions.
+Explict Function:A function where y is written directly in terms of x.
+Implicit Function: A function where x and y are mixed together in one equation.
+There will be Present a  Conditional Logic for this Functions.
+
+Boxplot:
+How data is spread + where the middle content is + outliers.
+Median - typical value.
+Box(Q1 to Q3) - middle 50% of data.
+Whiskers - normal range.
+Dots outside - outliers
+In this Max and Min Represent Extreme High and low values not used for data,
+It will be present at outside of the data.
+Best for comparison
+
+Histogram (frequency over ranges):
+It shows how often values occur within ranges(bins).
+In this Bars are count in each range.
+X axis - Value ranges
+Y axis - frequency
+Task:Frame questions for Dashboard Presentation.
 
