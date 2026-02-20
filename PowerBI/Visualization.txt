@@ -1,1 +1,24 @@
+Power BI Dashboards
 
+Dashboard : IT Support Team Performance
+Purpose: Analysis of Customers Respons or feedback on Tickets Resolution. 
+
+Includes:
+- KPI cards (Total, Open, Pending, Solved, Avg Resolution Time)
+- Weekly ticket trend
+- Ticket distribution by priority and status
+- Tickets by category
+- Ticket status distribution
+
+List of DAX
+Avg Priority = AVERAGE(Support_tickets[priority_cat])
+
+Security Inc Tick % = DIVIDE([Security Incident Tickets],DISTINCTCOUNT(Support_tickets[ticket_id]),0)
+
+Security Incident Tickets = CALCULATE(COUNTROWS(Support_tickets), Support_tickets[security_incident_flag] = 1)
+
+Tickets with payment impact = CALCULATE(COUNTROWS(Support_tickets), Support_tickets[payment_impact_flag] = 1)
+
+Average Resolution Time = AVERAGE(Fact_Tickets[Resolution Time])
+
+Total Tickets = COUNTROWS('Fact_Tickets')
