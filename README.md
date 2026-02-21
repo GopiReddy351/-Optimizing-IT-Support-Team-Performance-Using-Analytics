@@ -36,12 +36,17 @@ Status – Current ticket state (Open, In Progress, Resolved)
 Customer Satisfaction Score – User feedback rating after resolution
 
 # KPI's - Keep Performance Indicators
-Total Tickets KPI:It Represents the Total Nuber of Tickets Recorded in the dataset.
-AVG Priority KPI :It Represents the Average of the priority score assigned to each ticket.
-AVG Downtime KPI :It Represents the Number of Minutes customers Experienced service downtime per customer satisfaction.
-Payment Impact Tickets:It Represents the Transaction Issues and It helps to Track the revenue-risk Incidents.
-AVG Error Rate:It Represents the percentage of Tickets associated with application errors and helps to system reliability.
-Security Incident: It Represents the percentage of tickets related to security incidents, it's high risk and requires monitoring.
+1.Total Tickets KPI:It Represents the Total Nuber of Tickets Recorded in the dataset.
+
+2.AVG Priority KPI :It Represents the Average of the priority score assigned to each ticket.
+
+3.AVG Downtime KPI :It Represents the Number of Minutes customers Experienced service downtime per customer satisfaction.
+
+4.Payment Impact Tickets:It Represents the Transaction Issues and It helps to Track the revenue-risk Incidents.
+
+5.AVG Error Rate:It Represents the percentage of Tickets associated with application errors and helps to system reliability.
+
+6.Security Incident: It Represents the percentage of tickets related to security incidents, it's high risk and requires monitoring.
 
 # Key Insights
 High-Priority tickets consume 40% More Resolution time.
