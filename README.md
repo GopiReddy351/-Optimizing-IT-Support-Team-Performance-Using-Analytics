@@ -1,4 +1,5 @@
 # Optimizing-IT-Support-Team-Performance-Using-Analytics
+
 # Problem Statement
 The aim of this project is to optimize IT support team performance using data analytics
 # Problem Statement Description
@@ -58,10 +59,14 @@ SLA breaches spike during peak hours.
 Low CSAT corelates strongly with delayed resolution.
 
 # Recommendations
-Intoduce intelligent ticket routing based on agent expertise
+Intoduce intelligent ticket routing based on agent expertise.
+
 Balance workload using predictive volume analysis.
-Implement SLA(Service Level Agreement) alerts for high-priority tickets
+
+Implement SLA(Service Level Agreement) alerts for high-priority tickets.
+
 Provide target training for low-performing agents
+
 # Tools used
 1)VsCode:
 Data Handling:Python(Numpy,Pandas)
@@ -75,6 +80,7 @@ Pythone script for reusable pipline
 2)Visualization:PowerBI
 
 3)Documentation:Github Reposistory
+
 # Conclusion
 This project uses Python and Power BI to turn raw IT support ticket data into actionable insights. By analyzing KPIs such as resolution time, SLA compliance, and agent performance, the solution enables data-driven improvements in efficiency, workload balance, and service quality. The end result is an interactive dashboard that supports smarter operational decisions and continuous performance optimization.
 
