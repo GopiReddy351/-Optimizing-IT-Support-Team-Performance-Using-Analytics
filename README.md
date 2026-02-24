@@ -50,8 +50,11 @@ Customer Satisfaction Score – User feedback rating after resolution
 
 # Key Insights
 High-Priority tickets consume 40% More Resolution time.
-20% of agents Resoleve 55% of total tickes
-SLA breaches spike during peak hours
+
+20% of agents Resoleve 55% of total tickes.
+
+SLA breaches spike during peak hours.
+
 Low CSAT corelates strongly with delayed resolution.
 
 # Recommendations
